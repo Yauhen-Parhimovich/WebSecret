@@ -1,0 +1,12 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    gap: 24px;
+}
+
+@media (max-width: 523px) {
+    .product-list {
+        gap: 0;
+    }
+}
