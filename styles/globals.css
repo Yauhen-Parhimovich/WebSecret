@@ -1,0 +1,19 @@
+:root {
+    --main-color-text: #1B1B1B;
+    --light-color-text: #898989
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-color-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+}
